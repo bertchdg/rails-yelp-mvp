@@ -1,0 +1,9 @@
+      <div class="card p-3 mt-2">
+      <h5 class="card-title"><%= @restaurant.name %></h5>
+      <%= @restaurant.address %>
+      <%= @restaurant.phone_number %>
+      </div>
+      <div>
+      <div class="btn btn-info mt-5 p-2"><%= link_to "Add Review", new_review_path %></div>
+      <div class="btn btn-warning mt-5 p-2"><%= link_to "Back to all restaurants", restaurants_path %></div>
+      </div>
